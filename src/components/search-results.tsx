@@ -96,7 +96,8 @@ const SearchResults = () => {
           "Status: Working (planning to switch from API to web-scraping due to limitations)",
           "Tech: React, Express.js, Node.js, MongoDB, REST API, Axios, CSS"
         ],
-        type: "projects"
+        type: "projects",
+        external: true
       },
       {
         title: "Portfolio",
@@ -107,7 +108,8 @@ const SearchResults = () => {
           "Status: Completed",
           "Tech: React, TypeScript, Tailwind CSS, Shadcn UI, Radix UI"
         ],
-        type: "projects"
+        type: "projects",
+        external: true
       }
     ],
     contact: [
