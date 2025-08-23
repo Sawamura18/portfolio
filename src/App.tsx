@@ -18,7 +18,6 @@ const App = () => (
         <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/" element={<Results />} />
-            <Route path="/results" element={<Results />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
