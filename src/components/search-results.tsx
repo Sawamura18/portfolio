@@ -90,7 +90,7 @@ const SearchResults = () => {
       {
         title: "Statbook",
         url: "./github/utkarsh/statbook",
-        externalUrl: "",
+        externalUrl: "https://github.com/Sawamura18/statbook",
         description: "A web app that fetches real-time NBA data from a third-party API, displaying teams, players, and stats in an interactive dashboard.",
         bullets: [
           "Status: Working (planning to switch from API to web-scraping due to limitations)",
@@ -101,7 +101,7 @@ const SearchResults = () => {
       {
         title: "Portfolio",
         url: "./github/utkarsh/portfolio",
-        externalUrl: "",
+        externalUrl: "https://github.com/Sawamura18/portfolio",
         description: "A fully responsive personal portfolio website showcasing my projects, experience, and contact information.",
         bullets: [
           "Status: Completed",
