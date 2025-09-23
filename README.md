@@ -20,8 +20,7 @@ It features a light/dark theme toggle, interactive cards, and external links tha
 
 ## Demo
 
-You can view the live portfolio [here](https://utkarsh.dev) (replace with actual link if deployed).
-
+You can view the live portfolio [here](https://sawamura18.github.io/portfolio/) 
 ---
 
 ## Features
