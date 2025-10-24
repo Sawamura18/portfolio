@@ -1,6 +1,6 @@
 # Utkarsh Singh Portfolio
 
-A **search-engine style personal portfolio** for Utkarsh Singh, showcasing experience, projects, skills, and contact information. Built with modern web technologies and a responsive design for both desktop and mobile.
+A **search-engine style personal portfolio**, showcasing experience, projects, skills, and contact information. Built with modern web technologies and a responsive design for both desktop and mobile.
 
 ---
 
