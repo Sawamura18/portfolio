@@ -54,10 +54,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ```bash
 # 1. Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Sawamura18/portfolio
 
 # 2. Navigate into the project directory
-cd <YOUR_PROJECT_NAME>
+cd portfolio
 
 # 3. Install dependencies
 npm install
