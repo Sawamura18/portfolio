@@ -72,7 +72,7 @@ const SearchResults = () => {
           "Baseball analytics: I enjoy exploring Statcast data to study player performance and uncover patterns",
           "Cricket: I am a spin bowling allrounder, played in inter-hostel tournaments",
           "Basketball: Recreational",
-          "Chess: Recreational. I enjoy playing bullet and blitz formats"
+          "Chess: Recreational. I enjoy playing bullet and blitz formats",
           "Sci-Fi & Fantasy: I enjoy reading stories, novels and watching movies of sci-fi or fantasy genre"
         ],
         type: "about"
