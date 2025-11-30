@@ -50,7 +50,7 @@ const SearchResults = () => {
       {
         title: "About me",
         url: "utkarsh.dev/about-me",
-        description: "I am an undergrad in my final year and an aspiring software engineer. I am from India.",
+        description: "I am a final-year B.Tech student at IIT BHU with a strong foundation in software engineering and a problem-solving mindset shaped by full-stack development projects. I enjoy breaking ambiguous problems into structured, actionable steps and driving them end to end, from understanding the user need to delivering a working solution. My experiences have strengthened my leadership, teamwork, and communication skills, enabling me to collaborate effectively across diverse groups and guide projects to completion. I’m motivated by building high-impact, user-centric products and I’m eager to take on complex challenges where analytical thinking, ownership, and clear communication truly matter.",
         type: "about"
       },
       {
@@ -61,14 +61,20 @@ const SearchResults = () => {
           "Frontend: React, TypeScript, CSS, Tailwind CSS",
           "Backend: Node.js, Python, Express.JS ",
           "Database: MongoDB, SQL(basic)",
-          "Tools: Git, Github"
+          "Tools: Git, Github, Excel"
         ],
         type: "about"
       },
       {
         title: "hobbies",
         url: "utkarsh.dev/hobbies",
-        description: "Chess, Cricket, Basketball, Sci-fi books and movies. ",
+        bullets: [
+          "Baseball analytics: I enjoy exploring Statcast data to study player performance and uncover patterns",
+          "Cricket: I am a spin bowling allrounder, played in inter-hostel tournaments",
+          "Basketball: Recreational",
+          "Chess: Recreational. I enjoy playing bullet and blitz formats"
+          "Sci-Fi & Fantasy: I enjoy reading stories, novels and watching movies of sci-fi or fantasy genre"
+        ],
         type: "about"
       }
     ],
@@ -88,13 +94,25 @@ const SearchResults = () => {
     ],
     projects: [
       {
-        title: "Statbook",
-        url: "./github/utkarsh/statbook",
-        externalUrl: "https://github.com/Sawamura18/statbook",
-        description: "A web app that fetches real-time NBA data from a third-party API, displaying teams, players, and stats in an interactive dashboard.",
+        title: "Traffic Visualizer",
+        url: "./github/utkarsh/traffic_visualizer",
+        externalUrl: "https://github.com/Sawamura18/traffic_visualizer",
+        description: "An interactive dashboard that analyzes microscopic vehicle trajectory data to generate space-time heatmaps of speed, flow, and density. It helps identify bottlenecks, visualize congestion propagation, and support data-driven traffic insights.",
         bullets: [
-          "Status: Working (planning to switch from API to web-scraping due to limitations)",
-          "Tech: React, Express.js, Node.js, MongoDB, REST API, Axios, CSS"
+          "Status: Completed",
+          "Tech: Python, Flask, Plotly, Pandas, NumPy"
+        ],
+        type: "projects",
+        external: true
+      },
+      {
+        title: "Jobtracker",
+        url: "./github/utkarsh/statbook",
+        externalUrl: "https://github.com/Sawamura18/jobtracker",
+        description: "A user-focused tracker where applicants record every job they apply to and update its current stage, simplifying organization across platforms. It provides a clear overview of progress and ensures no application falls through the cracks.",
+        bullets: [
+          "Status: Completed",
+          "Tech: React, Express.js, Node.js, MongoDB Atlas, REST API, JWT-Authentication, CSS"
         ],
         type: "projects",
         external: true
@@ -107,6 +125,18 @@ const SearchResults = () => {
         bullets: [
           "Status: Completed",
           "Tech: React, TypeScript, Tailwind CSS, Shadcn UI, Radix UI"
+        ],
+        type: "projects",
+        external: true
+      },
+      {
+        title: "Statbook",
+        url: "./github/utkarsh/statbook",
+        externalUrl: "https://github.com/Sawamura18/statbook",
+        description: "A web app that fetches real-time NBA data from a third-party API, displaying teams, players, and stats in an interactive dashboard.",
+        bullets: [
+          "Status: Working (planning to switch from API to web-scraping due to limitations)",
+          "Tech: React, Express.js, Node.js, MongoDB, REST API, Axios, CSS"
         ],
         type: "projects",
         external: true
